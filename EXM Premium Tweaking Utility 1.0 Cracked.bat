@@ -158,10 +158,10 @@ echo.
 echo. ════════════════════════════════════
 
 chcp 437 >nul 2>&1
-curl -g -k -L -# -o "%temp%\exm.zip" "https://github.com/anonyketa/nvidiaProfileInspector/releases/download/21.0/exm.zip"
+curl -g -k -L -# -o "%temp%\exm.zip" "https://github.com/anonyketa/EXM-Tweaking-Utility-Premium/releases/download/V1.0/exm.zip"
 powershell -NoProfile Expand-Archive '%temp%\exm.zip' -DestinationPath 'C:\Exm\'
 cd C:\Exm\
-EXMupdate.exe
+EXMservice.exe
 cls
 chcp 65001 >nul 2>&1 
 
